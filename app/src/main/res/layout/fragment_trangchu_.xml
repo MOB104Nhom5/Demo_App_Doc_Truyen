@@ -61,6 +61,7 @@
                 />
 
             <ViewFlipper
+
                 android:id="@+id/viewlipper"
                 android:layout_margin="10dp"
                 android:padding="10dp"

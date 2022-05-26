@@ -32,7 +32,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:orientation="horizontal">
             />
 
@@ -57,7 +57,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:orientation="horizontal">
             />
 
@@ -83,7 +83,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:orientation="horizontal">
             />
 
@@ -109,7 +109,7 @@
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:orientation="horizontal">
             />
 
@@ -136,18 +136,18 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:orientation="horizontal">
             />
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/edtDiachi"
+                android:id="@+id/edtEmail"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint=" Dia Chi"
+                android:hint=" Email"
                 app:boxStrokeColor="#FFFFFF"
-                app:startIconDrawable="@drawable/outline_home_black_20">
+                app:startIconDrawable="@drawable/baseline_mail_black_24">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -156,11 +156,35 @@
             </com.google.android.material.textfield.TextInputLayout>
 
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edtDate"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ngay/Thang/Nam"
+                app:boxStrokeColor="#FFFFFF"
+                app:startIconDrawable="@drawable/baseline_calendar_today_black_24">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/DateFormat"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:text="" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="3dp"
             android:orientation="horizontal">
 
             <TextView
